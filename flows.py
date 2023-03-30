@@ -16,9 +16,9 @@ def version():
 @flow
 def parent():
     deployment_names = [
-        "main-2-6-0-python3-10",
-        "main-2-7-0-python3-10",
-        "main-2-8-0-python3-10",
+        "main-2-8-5-python3-10",
+        "main-2-8-6-python3-10",
+        "main-2-8-7-python3-10",
     ]
     for deployment_name in deployment_names:
         run_deployment(
